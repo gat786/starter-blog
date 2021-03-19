@@ -80,7 +80,9 @@ def read_root():
 
 You can run this app with the command `uvicorn main:app --reload ` 
 
-Once you have the app running hit the endpoint `localhost:8000 ` and you will get a message of `{"Hello": "World"} .`
+Once you have the app running hit the endpoint `localhost:8000 ` and you will get a message of `{"Hello": "World"}`.
+
+![Postman querying our hello world endpoint](/images/hello_world.png "Postman with our Enpoint")
 
 We must create a new function with path quote which will return our random quote to make our first API. It can be done like this.
 
@@ -102,6 +104,8 @@ def get_quote():
 ```
 
  After adding this function now when you hit the endpoint `localhost:8000/quotes` you will see that it returns our random quotes. Now we can deploy it to some cloud provider, and we will be able to use it in our mobile apps, desktop apps or any other app we can imagine. 
+
+![Postman with quotes endpoint](/images/quotes_response.png "Postman with quotes endpoint")
 
 Real world scenarios are much more complicated than this, but this is a beginning and all the REST Apis are built on these concepts. 
 
