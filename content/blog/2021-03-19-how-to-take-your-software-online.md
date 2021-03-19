@@ -16,4 +16,4 @@ Let's take an example, when you login to your Facebook, Instagram or Google Acco
 
 While this is a huge and complicated example on how things are done. What you typically want to do is similar. You have some piece of code, let's say some function which accepts some input let's say i.e. a string and returns a result. Now you want to put make it available to everyone. The easiest way to do that is REST API's. 
 
-REST stands for *REpresentational State Transfer.* Which says that it is used to transfer state data which you can represent in front of user.
+REST stands for *REpresentational State Transfer.* Which says that it is used to transfer state data which you can represent in front of user. Now REST uses HTTP protocol underneath what it means for you is you request for something by providing a path and the provide data related to that request. Server accepts that request checks whether everything is all right and then replies with a response if it finds one.
