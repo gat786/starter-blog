@@ -46,4 +46,6 @@ How it works in REST is you send in distinct types of HTTP requests to do differ
 
 For E.g. 
 
-If you want to fetch some data you will send a GET request, if you want to delete some data you will send a DELETE request. If you want to create some new resource, you will send in POST request and same goes for updating you will send in a UPDATE request. For more information on this go [here](https://www.w3schools.com/tags/ref_httpmethods.asp).
+If you want to fetch some data you will send a GET request, if you want to delete some data you will send a DELETE request. If you want to create some new resource, you will send in POST request and same goes for updating you will send in a UPDATE request. For more information on this go [here](https://www.w3schools.com/tags/ref_httpmethods.asp). 
+
+For this scenario you get an idea where I am trying to get at. For this scenario we can use a GET request to
