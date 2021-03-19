@@ -12,7 +12,7 @@ author: Arnaud Ligny
 description: A ready to use static blog, powered by Cecil.
 date:
   format: j F Y
-  timezone: India/Kolkata
+  timezone: Asia/Kolkata
 hyde:
   sidebar:
     sticky: true
