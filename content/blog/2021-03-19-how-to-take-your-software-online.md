@@ -5,7 +5,6 @@ image: /images/poster.png
 draft: true
 ---
 We as developers write code and want it to be readable by everyone and if possible it should be available for everyone to use it. But it happens many times that we don't know how to make it public and usable across our different apps. \
-\
 Suppose if you wrote a python code which converts a given string to a poetry, suppose you had a NodeJS program written which backs up your file to your favorite cloud, suppose you had an incredibly special and proprietary Random Number Generator code how would you put it on cloud? How would you use it across multiple apps? How would use the same code in different environment?
 
 Well one solution to all of this is you create a Web API and enclose your software in it and make it run on any of your favorite cloud provider. Now the question arises what is a Web API?
