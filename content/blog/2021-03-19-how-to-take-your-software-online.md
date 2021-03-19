@@ -36,4 +36,14 @@ def get_random_quote():
 
 ```
 
-This will read a file named `quotes.json` and return a random quote from the file when it finds one. I found that file on [kaggle](https://www.kaggle.com/akmittal/quotes-dataset?select=quotes.json).
+This will read a file named `quotes.json` and return a random quote from the file when it finds one. I found that file on [kaggle](https://www.kaggle.com/akmittal/quotes-dataset?select=quotes.json). 
+
+Now let's try to make an API around this function.
+
+It would be better if you have watched the video which is suggested to get more idea about how it works but I will explain over here in a bit. 
+
+How it works in REST is you send in distinct types of HTTP requests to do different tasks.
+
+For E.g. 
+
+If you want to fetch some data you will send a GET request, if you want to delete some data you will send a DELETE request. If you want to create some new resource, you will send in POST request and same goes for updating you will send in a UPDATE request. For more information on this go [here](https://www.w3schools.com/tags/ref_httpmethods.asp).
