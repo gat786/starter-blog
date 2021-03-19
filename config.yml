@@ -1,19 +1,23 @@
-title: The Butler
-baseline: Your blogging assistant
-description: A ready to use static blog, powered by Cecil.
-baseurl: /
-canonicalurl: true
-keywords: [Cecil, Static Site Generator, SSG]
-author: Arnaud Ligny
-date:
-  format: j F Y
-  timezone: Europe/Paris
+baseline: This site will contain blogs written by me and will all be copyleft
+  for you to do whatever you want with it.
 theme:
   - hyde
   - netlify
   - netlify-cms
+keywords:
+  - Cecil
+  - Static Site Generator
+  - SSG
+author: Arnaud Ligny
+description: A ready to use static blog, powered by Cecil.
+date:
+  format: j F Y
+  timezone: India/Kolkata
 hyde:
   sidebar:
-    sticky: true # Content to the bottom of the sidebar
-  theme: '' # red, orange, yellow, green, cyan, blue, magenta, brown or cecil
-  reverse: false # Reverse layout
+    sticky: true
+  theme: ""
+  reverse: false
+title: Gats Personal Blog
+baseurl: /
+canonicalurl: true
