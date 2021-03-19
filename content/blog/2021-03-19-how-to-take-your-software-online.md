@@ -35,3 +35,5 @@ def get_random_quote():
         return quotes[length_of_array]
 
 ```
+
+This will read a file named `quotes.json` and return a random quote from the file when it finds one. I found that file on [kaggle](https://www.kaggle.com/akmittal/quotes-dataset?select=quotes.json).
